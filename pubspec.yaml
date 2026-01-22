@@ -1,0 +1,58 @@
+name: nextkick_admin
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.0
+
+  get_storage: ^2.1.1
+  get_it: ^8.2.0
+  flutter_bloc: ^9.1.1
+  flutter_secure_storage: ^9.2.4
+  dio: ^5.9.0
+  equatable: ^2.0.7
+  cached_network_image: ^3.4.1
+  fade_shimmer: ^2.4.0
+  webview_flutter: ^4.13.0
+  intl: ^0.20.2
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/Lexend-Bold.ttf
+        - asset: assets/fonts/Lexend-Light.ttf
+        - asset: assets/fonts/Lexend-ExtraBold.ttf
+        - asset: assets/fonts/Lexend-ExtraLight.ttf
+        - asset: assets/fonts/Lexend-Medium.ttf
+        - asset: assets/fonts/Lexend-Regular.ttf
+        - asset: assets/fonts/Lexend-SemiBold.ttf
+        - asset: assets/fonts/Lexend-Thin.ttf
+        - asset: assets/fonts/Lexend-Black.ttf
